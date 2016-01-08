@@ -29,8 +29,8 @@ import java.util.ArrayList;
  * ID 2451232
  * 31/3/2015
  * My3DGame.java is the main class of the game which includes:
- * -   operate appState of all game elements: character, boat, elephant, robot, tree, terrain v.vv
- * -   change cursor's shape, 2D display of interfer, set up camera
+ * -   operate appState of all game elements: character, boat, elephant, robot, tree, terrain 
+ * -   change cursor's shape, 2D display of interface, set up camera
  * -   adding ambient light, spot light, directional light (optional)
  * -   make water effect, bloom effect
  * -   change the opening window's picture of game, add pause setting.

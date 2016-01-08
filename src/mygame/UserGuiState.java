@@ -20,6 +20,7 @@ import com.jme3.ui.Picture;
  * Name: ThanhNguyen   
  * ID  : 2451232
  * 31/3/2015
+ * Display the guild for player
  *******************************************************************************/
 public class UserGuiState extends AbstractAppState implements ActionListener{
 

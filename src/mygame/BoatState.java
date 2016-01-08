@@ -18,7 +18,7 @@ import com.jme3.scene.Spatial;
  * BoatState.java is a state of the model boat that includes:
  * -    loading boat model 
  * -    translate it onto the sea && attach it to rooNode
- * -    add physical effect with rigidbody
+ * -    add physical effect with rigid body
  *******************************************************************************/
 public class BoatState extends AbstractAppState {
     private BulletAppState bulletAppState;

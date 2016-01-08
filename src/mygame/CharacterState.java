@@ -41,7 +41,7 @@ import com.jme3.scene.shape.Sphere;
  * -    loading the Sinbad model, implements AnimEventListener 
  *      and ActionlListener to get input from user, apply the animations
  * -    Make 2D userGUI
- * -    Add emmiter and fire Effect, footsteps sound, casting shadow
+ * -    Add emitter and fire Effect, footsteps sound, casting shadow
  * -    Make character be able to shoot balls
  * -    Control character's movement by mouse click
  *******************************************************************************/
