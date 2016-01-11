@@ -77,7 +77,7 @@ public class My3DGame extends SimpleApplication { // extends SimpleAllication cl
         stateManager.attach(elephant);      //adding the elephant state        
         stateManager.attach(sound);         // adding the enviroment's sound state
         stateManager.attach(robot);         // adding the robot state
-        stateManager.attach(NPC);         // adding the robot state
+        stateManager.attach(NPC);           // adding the robot state
         stateManager.attach(userGui);
         iniLight();                         // using Spot && Ambient Light
         iniEffect();                        // add bloom && water effect        
@@ -127,9 +127,9 @@ public class My3DGame extends SimpleApplication { // extends SimpleAllication cl
         dlsr.setLight(sun);
         viewPort.addProcessor(dlsr);
 
-        WaterFilter water = new WaterFilter();         // water filter
+        
         Vector3f lightDir = new Vector3f(0,-0.001f,0); // light direction
-        water = new WaterFilter(rootNode, lightDir);
+        WaterFilter water = new WaterFilter(rootNode, lightDir); // water filter
         water.setCenter(Vector3f.ZERO); // set water layer is in the center point 0,0,0 
         
         // set up parameters for water's properties
